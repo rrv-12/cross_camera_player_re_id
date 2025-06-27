@@ -38,7 +38,7 @@ pip install ultralytics torch torchvision opencv-python faiss-cpu numpy scipy ea
 
 1. Clone the repository and open the notebook.
 2. Run all cells sequentially:
-   - It initializes models (YOLOv8, ResNet18).
+   - It initializes models (YOLOv11, ResNet50).
    - Runs detection on frames from different cameras.
    - Extracts features and performs re-identification.
    - Logs and optionally visualizes player mapping results.
