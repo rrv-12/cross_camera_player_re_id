@@ -36,7 +36,7 @@ pip install ultralytics torch torchvision opencv-python faiss-cpu numpy scipy ea
 
 ## Usage
 
-1. Clone the repository and open the notebook.
+1. Clone the repository or just download the file cross_camera_player_mapping.
 2. Run all cells sequentially:
    - It initializes models (YOLOv11, ResNet50).
    - Runs detection on frames from different cameras.
@@ -82,6 +82,5 @@ from scipy.optimize import linear_sum_assignment
 
 ## Notes
 
-- Requires GPU for real-time performance.
 - Pre-trained weights are needed for YOLOv11 and ResNet50.
 - Ensure consistent frame rates across camera feeds.
